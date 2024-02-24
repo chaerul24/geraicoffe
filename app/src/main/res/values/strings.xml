@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Gerai Caffee</string>
+    <string name="text_register">Register</string>
+    <string name="text_dont_have_account">Dont Have Account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_already_have_account">Already have
+account?</string>
+    <string name="text_login">Login</string>
+    <string name="name">Suci Rahmatillah</string>
+    <string name="email">sucirahmatillah2002@gmail.com</string>
+    <string name="logout">Logout</string>
+    <string name="ini_adalah_halaman_home">Ini adalah halaman Home</string>
+    <string-array name="data_title">
+        <item>Sejarah</item>
+        <item>Teknologi informasi</item>
+        <item> sel</item>
+    </string-array>
+
+    <string-array name="data_status">
+        <item>Unstarted</item>
+        <item>On going</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="data_level">
+        <item>Beginner</item>
+        <item>Beginner</item>
+        <item>Beginner</item>
+    </string-array>
+    <string-array name="data_chapters">
+        <item>3 Modul</item>
+        <item>7 Modul</item>
+        <item>7 Modul</item>
+    </string-array>
+    <string-array name="data_img">
+
+<item>https://skilvul-prod-01.s3.ap-southeast-
+1.amazonaws.com/course/intro-to-coding-1626243909763.jpg</item>
+
+        <item>https://skilvul-prod-01.s3.ap-southeast-
+1.amazonaws.com/course/Skilvul%20asset%20volume%202-03.jpg</item>
+
+        <item>https://skilvul-prod-01.s3.ap-southeast-
+1.amazonaws.com/course/Skilvul%20asset%20volume%202-04.jpg</item>
+
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Sejarah merupakan hal yang tidak bisa dilepaskan dari peradaban manusia yang terus berkembang dan berevolusi. Sebagai makhluk yang hidupnya dinamis, manusia akan menciptakan sejarah dan kemudian bermanfaat bagi kehidupan sekarang dan masa datang. Itulah sebabnya Grameds perlu mengenal dan memahami pengertian sejarah dan konsep penerapannya dalam kehidupan karena sejarah sangat berpengaruh pada kehidupan seseorang.
+            Konsep sejarah yang dimaksud tidak hanya berhenti pada pendefinisiannya saja, melainkan unsur, fungsi, dan manfaat sejarah itu sendiri dalam sebuah kajian ilmu pengetahuan. Jadi kajian ilmu sejarah itu sendiri tidak kalah penting dari kajian ilmu yang melingkupinya. Berikut ini penjelasan tentang pengertian sejarah, unsur-unsur, fungsi, dan manfaatnya dalam kehidupan</item>
+        <item>Dilansir dari situs National Institute of Standards and Technology (NIST), teknologi informasi adalah setiap peralatan atau sistem atau subsistem peralatan yang saling berhubungan, digunakan dalam akuisisi, penyimpanan, manipulasi, manajemen, pergerakan, kontrol, tampilan, pengalihan, pertukaran, transmisi, atau penerimaan data atau informasi secara otomatis.
+            Istilah TI ini mencakup beberapa hal, antara lain komputer, peralatan tambahan, perangkat lunak, firmware, dan prosedur serupa, layanan (termasuk layanan pendukung), serta sumber daya terkait.
+            Selain definisi di atas, ada beberapa pengertian menurut para ahli yang dikutip dari penelitian di repository Universitas Islam Riau (UIR).</item>
+        <item>Sel merupakan unit organisasi terkecil yang menjadi dasar kehidupan dalam arti biologis. Semua fungsi kehidupan diatur dan berlangsung di dalam sel. Karenanya, sel dapat berfungsi secara autonom selama seluruh kebutuhan hidupnya terpenuhi. Makhluk hidup (organisme) tersusun dari satu sel tunggal (uniselular, misalnya bakteri, Archaea, serta sejumlah fungi dan Protozoa) atau dari banyak sel (multiselular).
+            Pada organisme multiselular terjadi pembagian tugas terhadap sel-sel penyusunnya, yang menjadi dasar bagi hirarki hidup. Sel sebagai kesatuan struktural dan fungsional makhluk hidup, yang mengandung pengertian sebagai penyusun makhluk hidup</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yellow"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catatan"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:src="@drawable/add"
+            android:layout_weight="0"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_above="@id/bn"
+        android:layout_below="@id/ll"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/text_"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Pesanan"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recy"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bn"
+        android:paddingTop="20dp"
+        android:background="@drawable/b"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan"
+            android:id="@+id/total_pesanan"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Totaal harga"
+            android:layout_alignParentRight="true"
+            android:id="@+id/total_harga"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/pesan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Pesan Sekarang"/>
+    </RelativeLayout>
+
+</RelativeLayout>

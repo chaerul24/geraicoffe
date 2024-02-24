@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/baseline_menu_24"
+        android:title="Menu"/>
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/baseline_favorite_border_24"
+        android:title="Favorite"/>
+
+    <item
+        android:id="@+id/keranjang"
+        android:icon="@drawable/baseline_keranjang_24"
+        android:title="Keranjang"/>
+
+    <item
+        android:id="@+id/nama2"
+        android:icon="@drawable/baseline_nama2_24"
+        android:title="Profil"/>
+
+</menu>

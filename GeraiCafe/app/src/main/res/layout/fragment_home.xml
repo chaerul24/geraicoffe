@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#124244"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="480dp"
+        android:layout_height="180dp"
+        android:padding="29dp"
+        android:layout_marginLeft="19dp"
+        android:text="It's not just Coffe It's  "
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="35dp"
+        android:padding="29dp"
+        android:text="GeraiCafe  "
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="160dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/menu1" />
+
+
+    <ImageView
+        android:layout_width="229dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="311dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/menu2" />
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="172dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/menu4" />
+
+    <ImageView
+        android:layout_width="199dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="320dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/menu5" />
+
+    <EditText
+        android:id="@+id/pengiriman"
+        android:layout_width="217dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="267dp"
+        android:drawableLeft="@drawable/baseline_check_24"
+        android:drawablePadding="8dp"
+        android:hint="Pengiriman Cepat"
+        android:padding="12dp"
+        android:textSize="16dp"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/kualitas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="311dp"
+        android:layout_marginLeft="220dp"
+        android:drawableLeft="@drawable/baseline_check_24"
+        android:drawablePadding="8dp"
+        android:hint="Kualitas Terbaik"
+        android:padding="12dp"
+        android:textSize="16dp"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/promo"
+        android:layout_width="168dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="352dp"
+        android:drawableLeft="@drawable/baseline_check_24"
+        android:drawablePadding="8dp"
+        android:hint="Promo Terbaik"
+        android:padding="12dp"
+        android:textColorHint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/person"
+        android:layout_width="233dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="357dp"
+        android:drawablePadding="8dp"
+        android:hint="Contact Person"
+        android:padding="12dp"
+        android:textColorHint="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="19dp"
+        android:drawableLeft="@drawable/baseline_email2_24"
+        android:drawablePadding="8dp"
+        android:hint="geraicafe@gmail.com"
+        android:padding="12dp"
+        android:textSize="17dp"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/kontak"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="482dp"
+        android:layout_marginLeft="19dp"
+        android:drawableLeft="@drawable/baseline_kontak_24"
+        android:drawablePadding="8dp"
+        android:hint="0812-2285-2758"
+        android:textSize="17dp"
+        android:padding="12dp"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="536dp"
+        android:layout_marginLeft="19dp"
+        android:drawableLeft="@drawable/baseline_alamat2_24"
+        android:drawablePadding="8dp"
+        android:textSize="17dp"
+        android:hint="Jln.Syiah Kuala"
+        android:padding="12dp"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:text="Pesan sekarang"
+        android:textColor="#124244"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</FrameLayout>

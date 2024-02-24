@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#124244"
+    tools:context=".FavoriteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cari Minuman Favoritmu!"
+        android:textSize="50dp"
+        android:padding="9dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="367dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="19dp"
+        android:drawableLeft="@drawable/baseline_cari_24"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="15dp"
+        android:text="Cari Minuman"
+        android:drawablePadding="8dp"
+        android:hint="Nama"
+        android:textColor="#124244"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/semua"
+        android:layout_width="119dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Semua"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/caramel"
+        android:layout_width="119dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Caramel"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/Keju"
+        android:layout_width="119dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Keju"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="353dp"
+        android:layout_height="278dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="296dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/menu1" />
+
+    <Button
+        android:id="@+id/love"
+        android:layout_width="146dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="542dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tambah"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="555dp"
+        android:layout_marginLeft="12dp"
+        android:text="Strawberry Cream"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="510dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/bintang" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="614dp"
+        android:layout_marginLeft="30dp"
+        android:text="Rp.60.000"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+
+</FrameLayout>

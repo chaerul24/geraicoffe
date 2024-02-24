@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#124244"
+    tools:context=".MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="37dp"
+        android:text="Daftar Menu"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/menu1"
+        android:layout_width="164dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="100dp"
+        android:paddingRight="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menu1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/menu1"
+            android:text="Strawberry creme "
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="130dp"
+            android:textStyle="bold"
+            android:id="@+id/textmenu1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Frappucino"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textmenu1"
+        android:id="@+id/jenismenu1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Rp.60.000"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/jenismenu1"/>
+
+    <Button
+        android:id="@+id/belimenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tambah"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/menu2"
+            android:layout_width="172dp"
+            android:layout_height="144dp"
+            android:layout_marginTop="222dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/menu2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu2"
+        android:text="Coffe Cream"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="-47dp"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold"
+        android:id="@+id/textmenu2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu2"
+        android:text="Frappucino"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-47dp"
+        android:textSize="20dp"
+        android:layout_marginTop="118dp"
+        android:layout_below="@+id/textmenu1"
+        android:id="@+id/jenismenu2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Rp.55.000"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/jenismenu2"/>
+
+    <Button
+        android:id="@+id/belimenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tambah"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/menu4"
+        android:layout_width="183dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="367dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/menu4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Matcha creme"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="370dp"
+        android:textStyle="bold"
+        android:id="@+id/textmenu4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Frappucino"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textmenu4"
+        android:id="@+id/jenismenu3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Rp.70.000"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/jenismenu3"/>
+
+    <Button
+        android:id="@+id/belimenu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="399dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tambah"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/menu5"
+        android:layout_width="183dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="498dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/menu5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Coklat creme"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="504dp"
+        android:textStyle="bold"
+        android:id="@+id/textmenu5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Frappucino"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textmenu5"
+        android:id="@+id/jenismenu5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/menu1"
+        android:text="Rp.65.000"
+        android:textColor="@color/white"
+        android:layout_marginLeft="-40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/jenismenu5"/>
+
+    <Button
+        android:id="@+id/belimenu5"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tambah"
+        android:textColor="#124244"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:text="Lanjutkan"
+        android:textColor="#124244"
+        android:textSize="25dp"/>
+
+
+
+
+</RelativeLayout>

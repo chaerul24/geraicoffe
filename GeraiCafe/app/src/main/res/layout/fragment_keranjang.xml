@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#124244"
+    tools:context=".KeranjangFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="68dp"
+        android:text="Keranjang"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="334dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/baseline_pen_24"
+        android:padding="4dp"
+        android:text="Catatan"
+        android:textColor="#124244"
+        android:textSize="19dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Detail Pesanan"
+    android:textColor="@color/white"
+    android:textStyle="italic"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="38dp"
+    android:padding="10dp"
+    android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Item"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="580dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="610dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/sekarang"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:text="Pesan sekarang"
+        android:textColor="#124244"
+        android:textSize="25dp"/>
+
+
+</RelativeLayout>
